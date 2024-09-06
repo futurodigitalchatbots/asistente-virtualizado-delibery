@@ -1,0 +1,30 @@
+[
+  {
+    "id": 2,
+    "name": "Harina 000",
+    "cost": 151498.09,
+    "type": "unidades",
+    "quantity": 75
+  },
+  {
+    "name": "Tomate en Lata",
+    "cost": 85478.98,
+    "type": "unidades",
+    "quantity": 25,
+    "id": 3
+  },
+  {
+    "name": "Salame",
+    "cost": "15000",
+    "type": "kg",
+    "quantity": "2000",
+    "id": 4
+  },
+  {
+    "name": "salame",
+    "cost": "15010",
+    "type": "kg",
+    "quantity": "2050",
+    "id": 5
+  }
+]

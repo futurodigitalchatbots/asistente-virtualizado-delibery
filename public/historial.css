@@ -1,0 +1,177 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sales-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.summary-item {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.summary-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+#daily-sales-total, #weekly-sales-total, #monthly-sales-total {
+    font-size: 1.8em;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    width: 48%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chart-container h2 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+#bar-chart {
+    max-width: 100%;
+    height: 400px; /* Ajusta el tamaño del gráfico según sea necesario */
+}
+
+#table-chart {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+#table-chart th, #table-chart td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+#table-chart th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+#table-chart tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table-chart tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.sales-breakdown {
+    margin-top: 20px;
+}
+
+.sales-breakdown h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Ajusta el espacio entre los botones si lo deseas */
+    justify-content: center; /* Centra los botones si es necesario */
+}
+
+.pedidos {
+    /* Añade aquí los estilos deseados para los botones */
+}
+
+.pedidos {
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(9, 85, 63);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.pedidos:hover {
+    background: linear-gradient(to right, rgba(118, 70, 200, 0.78), rgba(127, 53, 53, 0.78), rgba(111, 220, 111, 0.78));
+}
+footer {
+    background-color: #282c34; /* Fondo oscuro */
+    color: #f1f1f1; /* Texto claro */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+.social-icon span {
+    display: block;
+    color: #f1f1f1;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.heart {
+    color: #ff6f61; /* Color para el corazón */
+    font-size: 16px;
+}

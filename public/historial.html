@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Ventas</title>
+    <link rel="stylesheet" href="historial.css">
+</head>
+<body>
+    <div class="container">
+        <center>
+            <img id="logo" src="images/logo.png" alt="logo">
+            <br>
+            <h3>Historia de ventas</h3>
+            <br>
+            <div class="button-container">
+                <a href="productos.html"><button class="pedidos">🛒 Productos 🛒</button></a>
+                <a href="pedidos.html"><button class="pedidos">🔖 Pedidos 🔖</button></a>
+            </div>
+            
+            <br>
+        </center>
+        <!-- Ventas del día, semana y mes -->
+        <div class="sales-summary">
+            <div class="summary-item">
+                <h2>Ventas del Día</h2>
+                <div id="daily-sales-total"></div>
+            </div>
+            <div class="summary-item">
+                <h2>Ventas Semanales</h2>
+                <div id="weekly-sales-total"></div>
+            </div>
+            <div class="summary-item">
+                <h2>Ventas Mensuales</h2>
+                <div id="monthly-sales-total"></div>
+            </div>
+        </div>
+        
+        <!-- Productos más elegidos -->
+        <div class="charts">
+            <div class="chart-container">
+                <h2>10 Productos Más Elegidos (Torta)</h2>
+                <canvas id="pie-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h2>10 Productos Más Elegidos (Columnas)</h2>
+                <canvas id="bar-chart"></canvas>
+            </div>
+        </div>
+        
+        <!-- Tabla de productos más elegidos -->
+        <div class="sales-breakdown">
+            <h2>10 Productos Más Elegidos (Tabla)</h2>
+            <table id="table-chart">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Ventas</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Facundo M. Cercuetti - CEO de Futuro Digital Optimizaciones. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://wa.me/5493876344349?text=Me%20comunico%20por%20el%20bot%20del%20sanatorio%20necesito%20contactarme." target="_blank" class="social-icon">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
+                </a>
+                <a href="https://www.facebook.com/futuro.digital.2024" target="_blank" class="social-icon">
+                    <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook">
+                </a>
+                <a href="https://buymeacoffee.com/facucercueq/e/289470" target="_blank" class="social-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/coffee.png" alt="Donación">
+                    <span>¡Apóyanos con una donación!</span>
+                </a>
+            </div>
+            <p>Diseñado con <span class="heart">♥</span> por Futuro Digital Optimizaciones</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="historial.js"></script>
+</body>
+</html>

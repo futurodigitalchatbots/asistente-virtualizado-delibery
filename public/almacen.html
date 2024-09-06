@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Inventario</title>
+    <link rel="stylesheet" href="almacen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Inventario</h1>
+    </header>
+
+    <main>
+        <!-- Ventas y Gastos del Día, Semana y Mes -->
+        <section class="summary-section">
+            <div class="summary-item">
+                <h2>Ventas del Día</h2>
+                <div id="daily-sales-total">0.00</div>
+            </div>
+            <div class="summary-item">
+                <h2>Ventas Semanales</h2>
+                <div id="weekly-sales-total">0.00</div>
+            </div>
+            <div class="summary-item">
+                <h2>Ventas Mensuales</h2>
+                <div id="monthly-sales-total">0.00</div>
+            </div>
+        </section>
+        <section class="summary-section">
+            <div class="summary-item">
+                <h2>Gastos del Día</h2>
+                <div id="daily-expenses-total">0.00</div>
+            </div>
+            <div class="summary-item">
+                <h2>Gastos Semanales</h2>
+                <div id="weekly-expenses-total">0.00</div>
+            </div>
+            <div class="summary-item">
+                <h2>Gastos Mensuales</h2>
+                <div id="monthly-expenses-total">0.00</div>
+            </div>
+        </section>
+
+        <!-- Sección de Inventario -->
+        <section class="inventory-section">
+            <center>
+                <button id="add-product-btn" class="btn-primary">Agregar Producto</button>
+                <button id="register-expense-btn" class="btn-secondary">Registrar Gasto</button>
+            </center>
+
+            <!-- Modal Agregar Producto -->
+            <div id="add-product-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Agregar Producto</h2>
+                    <form id="add-product-form">
+                        <label for="name">Nombre del Producto:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="cost">Costo (en pesos):</label>
+                        <input type="number" id="cost" name="cost" step="0.01" required>
+                        <label for="type">Tipo:</label>
+                        <select id="type" name="type" required>
+                            <option value="unit">Por Unidad</option>
+                            <option value="kg">Por Kilogramo</option>
+                        </select>
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" id="quantity" name="quantity" step="0.01" required>
+                        <button type="submit" class="btn-primary">Agregar</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Modal Registrar Gasto -->
+            <div id="register-expense-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Registrar Gasto</h2>
+                    <form id="register-expense-form">
+                        <label for="expense-name">Nombre del Gasto:</label>
+                        <input type="text" id="expense-name" name="expense-name" required>
+                        <label for="expense-cost">Costo (en pesos):</label>
+                        <input type="number" id="expense-cost" name="expense-cost" step="0.01" required>
+                        <button type="submit" class="btn-secondary">Registrar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="inventory-container">
+                <h2>Productos Almacenados</h2>
+                <table id="inventory-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Gasto</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="inventory-list">
+                        <!-- Productos se agregarán aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sección de Gráficos y Gastos -->
+        <section class="charts-section">
+            <h2>Gráficos de Gastos</h2>
+            <canvas id="expense-chart"></canvas>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="almacen.js"></script>
+</body>
+</html>

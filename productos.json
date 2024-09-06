@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "nombre": "Especiales de la Casa",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Combo clásico",
+        "descripcion": "Sándwich de milanesa + papas fritas + gaseosa + Salsa picante",
+        "precio": 11500
+      },
+      {
+        "id": 2,
+        "nombre": "Combo veggie",
+        "descripcion": "Sándwich veggie + ensalada mixta + jugo natural",
+        "precio": 10100
+      },
+      {
+        "id": 3,
+        "nombre": "Promo empanadas",
+        "descripcion": "6 empanadas surtidas + salsa criolla",
+        "precio": 9500
+      },
+      {
+        "id": 4,
+        "nombre": "Hamburguesa artesanal con cheddar y bacon",
+        "descripcion": "En pan brioche, acompañada de papas rústicas",
+        "precio": 12000
+      },
+      {
+        "id": 5,
+        "nombre": "Pizza de muzzarella",
+        "descripcion": "Pizza con muzzarella, tomate y albahaca",
+        "precio": 10500
+      },
+      {
+        "id": 6,
+        "nombre": "Lasaña casera",
+        "descripcion": "Capas de pasta con carne, salsa bechamel y queso",
+        "precio": 12800
+      },
+      {
+        "id": 7,
+        "nombre": "Tarta de verduras",
+        "descripcion": "Tarta rellena de verduras frescas y queso",
+        "precio": 10000
+      },
+      {
+        "id": 8,
+        "nombre": "Fajitas de pollo",
+        "descripcion": "Con tortillas, pollo marinado y vegetales",
+        "precio": 13500
+      },
+      {
+        "id": 9,
+        "nombre": "Pizza de pepperoni",
+        "descripcion": "Pizza con pepperoni, mozzarella y salsa de tomate",
+        "precio": 12500
+      },
+      {
+        "id": 10,
+        "nombre": "Sopa de lentejas",
+        "descripcion": "Con chorizo y vegetales",
+        "precio": 9500
+      },
+      {
+        "id": 11,
+        "nombre": "Ratatouille",
+        "descripcion": "Verduras asadas con salsa de tomate",
+        "precio": 10500
+      },
+      {
+        "id": 12,
+        "nombre": "Paella de mariscos",
+        "descripcion": "Con mariscos variados y arroz",
+        "precio": 14500
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Sándwiches",
+    "productos": [
+      {
+        "id": 13,
+        "nombre": "Sándwich de lomito",
+        "descripcion": "Con queso, lechuga, tomate, mayonesa, en pan de miga",
+        "precio": 6000
+      },
+      {
+        "id": 14,
+        "nombre": "Sándwich de pollo grillado",
+        "descripcion": "Con rúcula, tomate seco, mayonesa casera, en pan integral",
+        "precio": 6500
+      },
+      {
+        "id": 15,
+        "nombre": "Sándwich de atún con palta",
+        "descripcion": "En pan de campo, con cebolla morada y huevo duro",
+        "precio": 7000
+      },
+      {
+        "id": 16,
+        "nombre": "Sándwich de roast beef",
+        "descripcion": "Con queso cheddar, cebolla caramelizada, en pan ciabatta",
+        "precio": 7500
+      },
+      {
+        "id": 17,
+        "nombre": "Sándwich de chivito",
+        "descripcion": "Con carne de res, jamón, queso, huevo y vegetales",
+        "precio": 8000
+      },
+      {
+        "id": 18,
+        "nombre": "Sándwich de pastrón",
+        "descripcion": "Con pastrón ahumado, queso suizo y mostaza",
+        "precio": 7800
+      },
+      {
+        "id": 19,
+        "nombre": "Sándwich de cerdo BBQ",
+        "descripcion": "Con cerdo desmenuzado, salsa BBQ y coleslaw",
+        "precio": 7900
+      },
+      {
+        "id": 20,
+        "nombre": "Sándwich de pollo al curry",
+        "descripcion": "Con pollo al curry, lechuga y tomate en pan pita",
+        "precio": 7600
+      },
+      {
+        "id": 21,
+        "nombre": "Sándwich de carne y berenjena",
+        "descripcion": "Con carne a la parrilla y berenjena asada",
+        "precio": 8200
+      },
+      {
+        "id": 22,
+        "nombre": "Sándwich de falafel",
+        "descripcion": "Con falafel, hummus, vegetales en pan pita",
+        "precio": 7700
+      },
+      {
+        "id": 23,
+        "nombre": "Sándwich de camarones",
+        "descripcion": "Con camarones salteados, salsa de aguacate en pan ciabatta",
+        "precio": 8500
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Hamburguesas",
+    "productos": [
+      {
+        "id": 24,
+        "nombre": "Hamburguesa clásica",
+        "descripcion": "Con queso, lechuga, tomate, cebolla, en pan de sésamo",
+        "precio": 8000
+      },
+      {
+        "id": 25,
+        "nombre": "Hamburguesa cheddar",
+        "descripcion": "Con queso cheddar, bacon, en pan brioche",
+        "precio": 9500
+      },
+      {
+        "id": 26,
+        "nombre": "Hamburguesa BBQ",
+        "descripcion": "Con salsa BBQ, cebolla caramelizada, en pan brioche",
+        "precio": 10000
+      },
+      {
+        "id": 27,
+        "nombre": "Hamburguesa veggie",
+        "descripcion": "Con patty de vegetales, queso, guacamole, en pan integral",
+        "precio": 9000
+      },
+      {
+        "id": 28,
+        "nombre": "Hamburguesa con huevo",
+        "descripcion": "Con huevo frito, queso y bacon",
+        "precio": 10500
+      },
+      {
+        "id": 29,
+        "nombre": "Hamburguesa con champiñones",
+        "descripcion": "Con champiñones salteados, queso suizo",
+        "precio": 9800
+      },
+      {
+        "id": 30,
+        "nombre": "Hamburguesa picante",
+        "descripcion": "Con jalapeños, queso pepper jack y salsa picante",
+        "precio": 10200
+      },
+      {
+        "id": 31,
+        "nombre": "Hamburguesa de ternera con cebolla caramelizada",
+        "descripcion": "Con cebolla caramelizada, queso gouda",
+        "precio": 10800
+      },
+      {
+        "id": 32,
+        "nombre": "Hamburguesa con guacamole y jalapeños",
+        "descripcion": "Con guacamole fresco y jalapeños",
+        "precio": 11000
+      },
+      {
+        "id": 33,
+        "nombre": "Hamburguesa con piña",
+        "descripcion": "Con piña caramelizada, queso suizo",
+        "precio": 10400
+      },
+      {
+        "id": 34,
+        "nombre": "Hamburguesa con salsa de hongos",
+        "descripcion": "Con salsa de hongos y queso azul",
+        "precio": 11200
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Empanadas",
+    "productos": [
+      {
+        "id": 35,
+        "nombre": "Empanada de carne",
+        "descripcion": "Con cebolla, huevo duro, pasas de uva",
+        "precio": 1500
+      },
+      {
+        "id": 36,
+        "nombre": "Empanada de pollo",
+        "descripcion": "Con cebolla, pimiento, aceitunas",
+        "precio": 1600
+      },
+      {
+        "id": 37,
+        "nombre": "Empanada de jamón y queso",
+        "descripcion": "Clásica y sabrosa",
+        "precio": 1700
+      },
+      {
+        "id": 38,
+        "nombre": "Empanada de verdura",
+        "descripcion": "Con mix de verduras salteadas, queso",
+        "precio": 1600
+      },
+      {
+        "id": 39,
+        "nombre": "Empanada criolla",
+        "descripcion": "Con carne picada, cebolla, pimiento, huevo duro",
+        "precio": 1800
+      },
+      {
+        "id": 40,
+        "nombre": "Empanada de espinaca y ricota",
+        "descripcion": "Con espinaca y queso ricota",
+        "precio": 1650
+      },
+      {
+        "id": 41,
+        "nombre": "Empanada de cerdo y manzana",
+        "descripcion": "Con cerdo, manzana y canela",
+        "precio": 1750
+      },
+      {
+        "id": 42,
+        "nombre": "Empanada de champiñones y queso azul",
+        "descripcion": "Con champiñones salteados y queso azul",
+        "precio": 1700
+      },
+      {
+        "id": 43,
+        "nombre": "Empanada capresse",
+        "descripcion": "Con tomate, mozzarella y albahaca",
+        "precio": 1600
+      },
+      {
+        "id": 44,
+        "nombre": "Empanada de pollo al curry",
+        "descripcion": "Con pollo al curry, manzana y especias",
+        "precio": 1800
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Pizzas",
+    "productos": [
+      {
+        "id": 45,
+        "nombre": "Pizza Margherita",
+        "descripcion": "Con mozzarella, tomate, albahaca",
+        "precio": 9500
+      },
+      {
+        "id": 46,
+        "nombre": "Pizza Cuatro Quesos",
+        "descripcion": "Mozzarella, cheddar, roquefort, parmesano",
+        "precio": 11500
+      },
+      {
+        "id": 47,
+        "nombre": "Pizza Pepperoni",
+        "descripcion": "Con rodajas de pepperoni y mozzarella",
+        "precio": 12000
+      },
+      {
+        "id": 48,
+        "nombre": "Pizza Vegetariana",
+        "descripcion": "Con verduras frescas y mozzarella",
+        "precio": 11000
+      },
+      {
+        "id": 49,
+        "nombre": "Pizza BBQ",
+        "descripcion": "Con salsa BBQ, pollo, cebolla, queso",
+        "precio": 13000
+      },
+      {
+        "id": 50,
+        "nombre": "Pizza Hawaiana",
+        "descripcion": "Con jamón, piña y mozzarella",
+        "precio": 12500
+      },
+      {
+        "id": 51,
+        "nombre": "Pizza Napolitana",
+        "descripcion": "Con salsa de tomate, mozzarella, orégano",
+        "precio": 10500
+      },
+      {
+        "id": 52,
+        "nombre": "Pizza con Salchichón",
+        "descripcion": "Con salchichón y queso mozzarella",
+        "precio": 11700
+      },
+      {
+        "id": 53,
+        "nombre": "Pizza Carbonara",
+        "descripcion": "Con salsa carbonara, panceta y huevo",
+        "precio": 12500
+      },
+      {
+        "id": 54,
+        "nombre": "Pizza Calabresa",
+        "descripcion": "Con salami, cebolla y mozzarella",
+        "precio": 12000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Pastas",
+    "productos": [
+      {
+        "id": 55,
+        "nombre": "Espaguetis a la bolognesa",
+        "descripcion": "Con salsa de carne y tomate",
+        "precio": 9000
+      },
+      {
+        "id": 56,
+        "nombre": "Lasagna",
+        "descripcion": "Capas de pasta con carne y bechamel",
+        "precio": 11500
+      },
+      {
+        "id": 57,
+        "nombre": "Ravioles de ricotta y espinaca",
+        "descripcion": "Con salsa de manteca y salvia",
+        "precio": 10500
+      },
+      {
+        "id": 58,
+        "nombre": "Fettuccine Alfredo",
+        "descripcion": "Con salsa Alfredo y queso parmesano",
+        "precio": 11000
+      },
+      {
+        "id": 59,
+        "nombre": "Tagliatelle con camarones",
+        "descripcion": "Con camarones, ajo y perejil",
+        "precio": 12000
+      },
+      {
+        "id": 60,
+        "nombre": "Pasta a la carbonara",
+        "descripcion": "Con panceta, huevo y queso parmesano",
+        "precio": 11500
+      },
+      {
+        "id": 61,
+        "nombre": "Pasta con pesto",
+        "descripcion": "Con salsa pesto, albahaca y piñones",
+        "precio": 10000
+      },
+      {
+        "id": 62,
+        "nombre": "Macarrones con queso",
+        "descripcion": "Con salsa de queso cheddar",
+        "precio": 9800
+      },
+      {
+        "id": 63,
+        "nombre": "Pasta con salsa de tomate y albahaca",
+        "descripcion": "Con salsa de tomate y albahaca fresca",
+        "precio": 10000
+      },
+      {
+        "id": 64,
+        "nombre": "Pasta con salsa de champiñones",
+        "descripcion": "Con salsa cremosa de champiñones",
+        "precio": 11000
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Postres",
+    "productos": [
+      {
+        "id": 65,
+        "nombre": "Tiramisú",
+        "descripcion": "Postre italiano con café y queso mascarpone",
+        "precio": 4500
+      },
+      {
+        "id": 66,
+        "nombre": "Cheesecake",
+        "descripcion": "Con base de galleta y cobertura de frutos rojos",
+        "precio": 5000
+      },
+      {
+        "id": 67,
+        "nombre": "Brownie",
+        "descripcion": "Con trozos de nueces y chocolate",
+        "precio": 4200
+      },
+      {
+        "id": 68,
+        "nombre": "Flan casero",
+        "descripcion": "Con caramelo y crema",
+        "precio": 4000
+      },
+      {
+        "id": 69,
+        "nombre": "Helado de chocolate",
+        "descripcion": "Con trozos de chocolate y crema",
+        "precio": 3800
+      },
+      {
+        "id": 70,
+        "nombre": "Panna Cotta",
+        "descripcion": "Postre italiano con salsa de frutos rojos",
+        "precio": 4500
+      },
+      {
+        "id": 71,
+        "nombre": "Budín de pan",
+        "descripcion": "Con pasas y salsa de vainilla",
+        "precio": 4300
+      },
+      {
+        "id": 72,
+        "nombre": "Mousse de maracuyá",
+        "descripcion": "Ligero y refrescante",
+        "precio": 4700
+      },
+      {
+        "id": 73,
+        "nombre": "Crumble de manzana",
+        "descripcion": "Con manzanas y cobertura crujiente",
+        "precio": 4400
+      },
+      {
+        "id": 74,
+        "nombre": "Tarta de limón",
+        "descripcion": "Con masa quebrada y crema de limón",
+        "precio": 4600
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Productos</h1>
+        <center>
+            <img src="images/logo.png" alt="" style="height: 120px;">
+            <br>
+            <div class="button-container">
+                <a href="pedidos.html"><button class="pedidos">🔖 Pedidos 🔖</button></a>
+                <a href="historial.html"><button class="pedidos">📋 Historial 📋</button></a>
+            </div>
+            <br>
+            <div id="product-menu" class="product-menu">
+                <!-- Aquí se generarán los productos con JavaScript -->
+            </div>
+        </center>
+        <!-- No es necesario un formulario de edición global aquí -->
+    </div>
+    <!-- Contenedor para el mensaje de confirmación -->
+    <div id="confirmation-message" class="confirmation-message" style="display: none;">
+        <p>🔖 Producto actualizado correctamente ✔️</p>
+        <p>🖥️ Por favor actualice la pagina 🔄</p>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Facundo M. Cercuetti - CEO de Futuro Digital Optimizaciones. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://wa.me/5493876344349?text=Me%20comunico%20por%20el%20bot%20del%20sanatorio%20necesito%20contactarme." target="_blank" class="social-icon">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
+                </a>
+                <a href="https://www.facebook.com/futuro.digital.2024" target="_blank" class="social-icon">
+                    <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook">
+                </a>
+                <a href="https://buymeacoffee.com/facucercueq/e/289470" target="_blank" class="social-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/coffee.png" alt="Donación">
+                    <span>¡Apóyanos con una donación!</span>
+                </a>
+            </div>
+            <p>Diseñado con <span class="heart">♥</span> por Futuro Digital Optimizaciones</p>
+        </div>
+    </footer>
+    
+    
+    <script src="productos.js"></script>
+</body>
+</html>
